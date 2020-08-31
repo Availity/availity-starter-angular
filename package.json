@@ -18,10 +18,10 @@
     "profile:production": "cross-env NODE_ENV=production av profile",
     "build": "av build",
     "build:production": "cross-env NODE_ENV=production av build",
-    "build:staging": "cross-env NODE_ENV=staging av build",
+    "build:staging": "cross-env NODE_ENV=development av build",
     "release": "av release",
     "production": "cross-env NODE_ENV=production av release",
-    "staging": "cross-env NODE_ENV=staging av release",
+    "staging": "cross-env NODE_ENV=development av release",
     "precommit": "lint-staged",
     "upgrade:workflow": "./node_modules/.bin/upgrade-workflow"
   },
